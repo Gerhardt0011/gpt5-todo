@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Rust tests",
+			"type": "shell",
+			"command": "cargo test --all",
+			"group": "build"
+		},
+		{
+			"label": "Run Rust tests",
+			"type": "shell",
+			"command": "cargo test --all",
+			"group": "build"
+		},
+		{
+			"label": "Run Rust tests (routes split)",
+			"type": "shell",
+			"command": "cargo test --all",
+			"group": "build"
+		}
+	]
+}
